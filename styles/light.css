@@ -5,8 +5,59 @@
 */
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --main-text-color: #353430;
+  --background-image: url(../images/cover-image-light.png);
+  --paragraph-text-color: #353430;
+  --paragraph-title-color: #353430;
+  --header-paragraph-color: #353430;
+  --paragraph-title-background-color: #FF8DCB;
+  --section-title-color: #FF8DCB;
+  --navigation-text-color: #353430;
+  --navigation-text-color-hover: #32312D66; 
+  --header-title-color: #FFC2E6;
+  --accent-color: #FF8DCB;
+  --header-title-shadow-color: #FF0070;
+
+  --header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
+  
+.page.theme_light .decoration__block {
+  display: none;
+}
+
+@media (width >= 768px) {
+  :root {
+    --header-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
+  
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-text-color: #353430;
+    --background-image: url(../images/cover-image-light.png);
+    --paragraph-text-color: #353430;
+    --paragraph-title-color: #353430;
+    --header-paragraph-color: #353430;
+    --paragraph-title-background-color: #FF8DCB;
+    --section-title-color: #FF8DCB;
+    --navigation-text-color: #353430;
+    --navigation-text-color-hover: #32312D66; 
+    --header-title-color: #FFC2E6;
+    --accent-color: #FF8DCB;
+    --header-title-shadow-color: #FF0070;
+  }
+  
+  .page {
+    background-image: url(../images/cover-image-light.png);
+  }
+  
+  .decoration__block {
+    display: none;
+  }
+
+  @media (width >= 768px) {
+    :root {
+      --header-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    }
+  }
 }
