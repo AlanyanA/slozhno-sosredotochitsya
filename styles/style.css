@@ -327,11 +327,7 @@
   }
 }
 
-@media (width >= 1024px) {
-  :root {
-    
-  }
-  
+@media (width >= 1024px) {  
   .header {
     min-height: 768px;
   }
