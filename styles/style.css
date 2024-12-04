@@ -6,6 +6,7 @@
   font-size: 18px;
   line-height: 23.4px;
   color: var(--main-text-color);
+  background-color: var(--background-color);
   background-image: var(--background-image);
   background-attachment: fixed;
   background-position: center;
@@ -109,7 +110,7 @@
   font-size: var(--header-font-size);
   line-height: calc(1em*0.825);
   font-weight: 700;
-  text-shadow: 4px 4px var(--header-title-shadow-color); 
+  text-shadow: 4px 4px var(--header-title-shadow-color);
 }
 
 .header__paragraph {
@@ -208,6 +209,10 @@
 }
 
 @media (width >= 768px) {
+  :root {
+    --header-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+  
   .header {
     min-height: 1024px;
     padding: 20px;
@@ -323,6 +328,10 @@
 }
 
 @media (width >= 1024px) {
+  :root {
+    
+  }
+  
   .header {
     min-height: 768px;
   }

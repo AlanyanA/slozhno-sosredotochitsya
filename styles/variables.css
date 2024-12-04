@@ -3,6 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
+  --background-color: #000028;
   --main-text-color: #FF0070;
   --background-image: url(../images/cover-image-dark.png);
   --paragraph-text-color: #F1B2CE;
