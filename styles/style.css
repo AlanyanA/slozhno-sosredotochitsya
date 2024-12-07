@@ -113,13 +113,11 @@
 }
 
 .page-title {
-  
-  
   color: var(--header-title-color);
   font-size: var(--header-font-size);
   line-height: calc(1em*0.825);
   font-weight: 700;
-  text-shadow: 4px 4px var(--header-title-shadow-color);
+  text-shadow: 4px 4px var(--accent-color);
 }
 
 .header__paragraph {
@@ -335,6 +333,10 @@
 }
 
 @media (width >= 1024px) {
+  .page-title {
+    text-shadow: 4px 4px var(--header-title-shadow-color);
+  }
+
   .header {
     min-height: 768px;
   }
