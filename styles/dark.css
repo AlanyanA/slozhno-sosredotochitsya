@@ -24,3 +24,25 @@
 .theme_dark .decoration__block {
   display: flex;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000028;
+    --main-text-color: #FF0070;
+    --background-image: url(../images/cover-image-dark.png);
+    --paragraph-text-color: #F1B2CE;
+    --paragraph-title-color: #000028;
+    --header-paragraph-color: #000028;
+    --paragraph-title-background-color: #FF0070;
+    --section-title-color: #FF0070;
+    --navigation-text-color: #FF0070;
+    --navigation-text-color-hover: #FF007066;
+    --header-title-color: #DB00FF;
+    --accent-color: #FF0070;
+    --header-title-shadow-color: #FF0070;
+    --angles-color: #FF0070;
+  }
+  .decoration__block {
+    display: flex;
+  }
+}
