@@ -15,8 +15,16 @@
   --navigation-text-color-hover: #FF007066;
   --header-title-color: #DB00FF;
   --accent-color: #FF0070;
-  --header-title-shadow-color: #FF0070;
+  --header-title-shadow-color: #FF0070; 
+  --angles-color: #FF0070;
 
-  --header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   
 }
+
+@media (width < 768px) {
+  :root {
+    --header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+}
+

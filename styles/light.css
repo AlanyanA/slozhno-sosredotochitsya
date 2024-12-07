@@ -18,8 +18,7 @@
   --header-title-color: #FFC2E6;
   --accent-color: #FF8DCB;
   --header-title-shadow-color: #FF0070;
-
-  --header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --angles-color: #353430;
 }
   
 .page.theme_light .decoration__block {
@@ -41,12 +40,9 @@
     --header-title-color: #FFC2E6;
     --accent-color: #FF8DCB;
     --header-title-shadow-color: #FF0070;
+    --angles-color: #353430;
   }
-  
-  .page {
-    background-image: url(../images/cover-image-light.png);
-  }
-  
+
   .decoration__block {
     display: none;
   }

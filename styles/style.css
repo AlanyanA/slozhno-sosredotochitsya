@@ -66,8 +66,8 @@
 .decorated-zone::before {
   top: 10px;
   right: 10px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--angles-color);
+  border-right: 1px solid var(--angles-color);
 }
 
 .decoration__block {
@@ -94,8 +94,8 @@
 .decorated-zone::after {
   bottom: 10px;
   left: 10px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--angles-color);
+  border-left: 1px solid var(--angles-color);
 }
 
 .header {
@@ -113,9 +113,7 @@
 }
 
 .page-title {
-  @media (width >= 768px) {
-    --header-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
+  
   
   color: var(--header-title-color);
   font-size: var(--header-font-size);
@@ -206,6 +204,7 @@
 }
 
 .footer {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

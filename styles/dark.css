@@ -18,8 +18,7 @@
   --header-title-color: #DB00FF;
   --accent-color: #FF0070;
   --header-title-shadow-color: #FF0070;
-
-  --header-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --angles-color: #FF0070;
 }
 
 .theme_dark .decoration__block {
